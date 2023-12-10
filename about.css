@@ -1,0 +1,241 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      -webkit-transition: all .2s linear;
+      transition: all .2s linear;
+    }
+    
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+    
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+    
+  html::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+    
+  html::-webkit-scrollbar-thumb {
+    background: #213a5c;
+    border-radius: 5rem;
+  }
+    
+  body {
+    background: #dad5cf;
+    overflow-x: hidden;
+  }
+    
+  section {
+    padding: 3rem 9%;
+  }
+    
+  .heading {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+  .heading span {
+      color: #0E2038;
+      font-size: 2rem;
+    }
+  
+  .heading h1 {
+      font-size: 4rem;
+      color: #0E2038;
+    }
+  
+  .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: #0E2038;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 1.5rem 9%;
+    }
+  
+  .header .navbar a {
+      font-size: 1.7rem;
+      color: #fffdf0;
+      display: inline-block;
+      margin: 0 1rem;
+    }
+    
+  .header .navbar a:hover {
+      color: #f5c400;
+    }
+    
+  .header .btn {
+      margin-top: 0;
+    }
+    
+  .logo {
+      font-size: 2.5rem;
+      color: #fffdf0;
+      font-weight: bolder;
+      font-family: Garamond, serif;
+    }
+    
+  .logo i {
+      color: #0E2038;
+      padding-right: .5rem;
+      display: inline-block;
+      
+    }
+  
+  .logo {
+      display: flex;
+      align-items: center; /* Align items vertically in the center */
+    }
+    
+  .logo img {
+      width: 50px; /* Adjust the width of the logo image as needed */
+      margin-right: 10px; /* Add spacing between the image and text */
+    }
+    
+  #menu-btn {
+      font-size: 2.5rem;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+    }
+  
+  
+  .about {
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 4rem;
+    background-attachment: fixed;
+    text-align: center;
+    color: #0E2038;
+  }
+  
+  .about h2{
+    font-size: 50px;
+    color: #0E2038;
+  }
+  
+  .about .box-container {
+      display: flex;
+      -ms-grid-columns: (minmax(20rem, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 1.5rem;
+    }
+    
+  .about .box-container .box {
+      border-radius: 1rem;
+      overflow: hidden;
+      background: #0E2038
+    }
+    
+  .about .box-container .box .content {
+      padding: 2rem;
+      text-align: center;
+    }
+    
+  .about .box-container .content h2 {
+      font-size: 2rem;
+      color: #dad5cf;
+    }
+  .about .box-container .box .content h3 {
+      font-size: 2rem;
+      color: #dad5cf;
+    }
+    
+  .about .box-container .box .content p {
+      text-align: justify;
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: #dad5cf;
+      line-height: 2;
+    }
+    
+  .about .box-container .box .content a {
+      font-size: 1.7rem;
+      color: #0E2038;
+    }
+  .about .box-container .box .content a:hover i {
+      padding-left: 1rem;
+    }
+    
+  .about .box-container .box .content a i {
+      padding-right: rem;
+    }
+    
+  .banner {
+      background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(images/school.png) no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 3rem 2rem;
+      background-attachment: fixed;
+      text-align: center;
+    }
+      
+  .banner .content span {
+      font-size: 15px;
+      color: #ffffff;
+      }
+  
+  .banner .content h3 {
+      font-size: 4rem;
+      color: #fff;
+      padding: 5rem;
+      }
+      
+  .banner .content p {
+      font-size: 15px;
+      color: #fff;
+      margin-top: 1rem;
+      line-height: 2;
+      }
+
+.Uniform .box-container {
+  -webkit-columns: 3 25rem;
+          columns: 3 25rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.Uniform .box-container .box {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.Uniform .box-container .box img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Uniform .box-container .box span {
+  font-size: 1.4rem;
+  color: #0E2038;
+}
+
+
+.Uniform .box-container .box h3 {
+  margin-top: .5rem;
+  font-size: 2rem;
+  color: #0E2038;
+}
